@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-scss": "^1.3.17"
+    "gulp-scss": "^1.3.17",
+    "mocha": "^2.4.5"
   }
 }
