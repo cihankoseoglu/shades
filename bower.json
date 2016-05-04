@@ -1,0 +1,24 @@
+{
+  "name": "shades",
+  "description": "A Sass/CSS framework for minimalist websites that use black, white and shades of gray as a design choice",
+  "main": "index.js",
+  "authors": [
+    "Cihan Koseoglu <cihan@cihankoseoglu.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "sass",
+    "minimalist",
+    "shades"
+  ],
+  "moduleType": [],
+  "homepage": "http://shades.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
