@@ -5,22 +5,11 @@
 * Licensed under the MIT license
 */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,400italic,300italic,600,600italic,700,700italic&subset=latin,latin-ext);
+// Main file
 
-
-html{
-box-sizing: border-box;
-}
-
-body{
-  color: #333;
-  font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1.4em;
-  font-weight: 300;
-  letter-spacing: 0.02em;
-  line-height: 1.65;
-}
-
-*, *:after, *:before{
-  box-sizing:inherit;
-}
+@import '_normalize';
+@import '_typeface';
+@import '_color';
+@import '_base';
+@import '_elements';
+@import '_grid';

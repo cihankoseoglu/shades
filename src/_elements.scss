@@ -1,0 +1,162 @@
+/*
+* Shades v0.0.1
+* http://shades.github.io
+* Copyright (c) 2016 Cihan Koseoglu
+* Licensed under the MIT license
+*/
+
+
+// Blockquote
+
+blockquote{
+  border:{
+    left:{
+      width: 0.2rem;
+      color: $darkGrayColor;
+      style: solid;
+    }
+  }
+  padding:{
+    left:0.8rem;
+  }
+
+  & *:last-child{
+    margin:0;
+  }
+}
+
+// Button
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit']{
+  background-color: $darkGrayColor;
+  border: 0.1rem solid $darkGrayColor;
+  border-radius: 0.8rem;
+  box-sizing:border-box;
+  color: $whiteColor;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9rem;
+  height: 2.6rem;
+  letter-spacing: 0.05rem;
+  padding: 0 1.0rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+&:hover, &:focus{
+  background-color: $lightGrayColor;
+  border-color: $lightGrayColor;
+  color: $lighterGrayColor
+}
+
+&.button-outline{
+  color: $blackColor;
+  background-color: transparent;
+}
+
+&.button-inverse{
+
+  background-color: $whiteColor;
+  color: $darkGrayColor;
+
+  &:hover, &:focus{
+    background-color: $lightGray1;
+    border-color: $lightGray2;
+  }
+
+}
+}
+
+
+// Code Blocks
+
+code{
+  display:block;
+  padding: 1rem;
+  white-space:pre;
+  background-color: $lighterGrayColor;
+  font-size: 1.1rem;
+  margin: 0 0.2rem;
+  white-space: nowrap;
+  border:{
+    left:{
+        size:.4rem;
+        style: groove;
+        color: $darkGrayColor;
+    }
+  }
+  font-family: Monaco, monospace;
+
+}
+
+// Form Elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

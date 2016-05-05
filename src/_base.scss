@@ -1,0 +1,25 @@
+/*
+* Shades v0.0.1
+* http://shades.github.io
+* Copyright (c) 2016 Cihan Koseoglu
+* Licensed under the MIT license
+*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,400italic,300italic,600,600italic,700,700italic&subset=latin,latin-ext);
+
+
+html{
+box-sizing: border-box;
+}
+
+body{
+  color: $blackColor;
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.4em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  line-height: 1.65;
+}
+
+*, *:after, *:before{
+  box-sizing:inherit;
+}
