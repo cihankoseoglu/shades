@@ -6,6 +6,7 @@ A Sass/CSS framework for minimalist websites that use black, white and shades of
 
 Yes and no, there are plenty of other CSS frameworks. This library however is a yes for people who are in love with black&white design, and people who are looking for a really small, grid-system included and pre-designed libraries.
 
+
 ## Installing
 
 
@@ -24,3 +25,10 @@ shades.scss and shades.css are both licensed under the MIT license. (http://open
 
 Feel free to submit a pull request.
 Thanks!
+
+## Self-Todo
+
+Utility functions like float, clearfix
+Animate scss integration
+hr element decreasing opacity to sides
+leftover semantic html5 elements implementation
